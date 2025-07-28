@@ -1,5 +1,6 @@
 import React from 'react';
 import HoverItem from '../components/hover-item';
+import Link from 'next/link';
 
 const Menu: React.FC = () => {
   return (
@@ -9,7 +10,9 @@ const Menu: React.FC = () => {
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div>
-          <HoverItem imageUrl="/entrada.webp" title="Entrada" />
+          <Link href={'#'}>
+            <HoverItem imageUrl="/entrada.webp" title="Entrada" />
+          </Link>
         </div>
         <div>
           <HoverItem imageUrl="/prato-principal.webp" title="Prato Principal" />
