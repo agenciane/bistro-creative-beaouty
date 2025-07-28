@@ -12,12 +12,18 @@ const entrada: React.FC = () => {
           <ItemMenu
             title="Omelete Tradicional"
             description="Recheado com queijo, presunto, tomate e cebola."
-            photoUrl="/omelete.webp"
+            photoUrl="/omelete-presunto.webp"
           />
           <ItemMenu
             title="Omelete Fit"
             description="Preparado com claras, frango desfiado e ervas finas."
             photoUrl="/omeletfit.webp"
+          />
+
+          <ItemMenu
+            title="Omelete Caesar"
+            description="Muçarela, frango, parmesão e um toque de molho caesar."
+            photoUrl="/omelete-frango.webp"
           />
         </div>
       </section>
