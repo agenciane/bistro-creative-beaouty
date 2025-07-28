@@ -6,8 +6,9 @@ export default function Home() {
       <main>
         <section className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 p-8">
-            <h2 className="text-6xl font-bold leading-16">
-              PRATOS AUTORAIS FEITOS COM EXCELÊNCIA PELOS NOSSOS CHEFES.
+            <h2 className="text-5xl font-thin leading-16">
+              Elegância nos detalhes. Uma curadoria leve e autoral, assinada pelo nosso chef. Aproveite a experiência
+              Creative.
             </h2>
             <div className="max-w=[300px] w-[300px] mt-4">
               <a href="#" className="text-center">
