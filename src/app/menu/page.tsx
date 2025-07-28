@@ -10,8 +10,13 @@ const Menu: React.FC = () => {
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div>
-          <Link href={'entrada'}>
-            <HoverItem imageUrl="/entrada.webp" title="Entrada" />
+          <Link href={'salada'}>
+            <HoverItem imageUrl="/salada.webp" title="Salada" />
+          </Link>
+        </div>
+        <div>
+          <Link href={'omeletes'}>
+            <HoverItem imageUrl="/omelete.webp" title="Omeletes" />
           </Link>
         </div>
         <div>
