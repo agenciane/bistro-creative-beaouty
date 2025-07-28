@@ -11,7 +11,7 @@ interface ItemMenuProps {
 const ItemMenu: React.FC<ItemMenuProps> = ({ title, description, price, photoUrl }) => {
   return (
     <div>
-      <Image src={photoUrl} alt={title} width={300} height={300} />
+      <Image src={photoUrl} alt={title} width={300} height={300} className="w-full h-auto object-cover" />
       <h3 className="text-xl uppercase border-b border-white py-2">{title}</h3>
       {description && <p className="py-4">{description}</p>}
       {price && (
