@@ -20,13 +20,13 @@ const Menu: React.FC = () => {
           </Link>
         </div>
         <div>
-          <Link href={'prato-principal'}>
-            <HoverItem imageUrl="/prato-principal.webp" title="Prato Principal" />
+          <Link href={'lanches-quentes'}>
+            <HoverItem imageUrl="/frango-cremoso.webp" title="Lanches Quentes" />
           </Link>
         </div>
         <div>
-          <Link href={'bebidas'}>
-            <HoverItem imageUrl="/bebidas.webp" title="Bebidas" />
+          <Link href={'pratos-quentes'}>
+            <HoverItem imageUrl="/pratos-quentes.webp" title="Pratos quentes" />
           </Link>
         </div>
         <div>
