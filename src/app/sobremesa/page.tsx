@@ -11,7 +11,7 @@ const entrada: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <ItemMenu title="Bolo de cenoura com calda cremosa de chocolate" photoUrl="/bolo-de-cenoura.webp" />
           <ItemMenu title="Brownie caseiro" photoUrl="/brownie.webp" />
-          <ItemMenu title="Petit gâteau" photoUrl="/petit-gateou.webp" />
+          <ItemMenu title="Petit gâteau" photoUrl="/petit-gateou.webp" price="R$50" />
           <ItemMenu title="Mini cheesecake de frutas vermelhas" photoUrl="/cheecacke.webp" />
           <ItemMenu title="Salada de frutas na taça" photoUrl="/salada-de-fruta.webp" />
         </div>

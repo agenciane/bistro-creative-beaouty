@@ -13,6 +13,7 @@ const entrada: React.FC = () => {
             title="Torta de Frango Cremosa"
             description="Torta recheada com frango desfiado, temperos e requeijão."
             photoUrl="/frango-cremoso.webp"
+            price="R$50"
           />
         </div>
       </section>

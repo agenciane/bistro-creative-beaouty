@@ -13,11 +13,13 @@ const entrada: React.FC = () => {
             title="Salada de Frango Grelhado"
             description="Mix de folhas frescas, frango grelhado, tomatinhos, lascas de parmesão e molho de mostarda e mel."
             photoUrl="/frango-grelhado.webp"
+            price="R$65"
           />
           <ItemMenu
             title="Salada Caesar"
             description="Folhas nobres, frango desfiado, croutons, parmesão e molho caesar artesanal."
             photoUrl="/salada-ceaser.webp"
+            price="R$65"
           />
         </div>
       </section>

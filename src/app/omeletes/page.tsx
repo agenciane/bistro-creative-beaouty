@@ -13,17 +13,20 @@ const entrada: React.FC = () => {
             title="Omelete Tradicional"
             description="Recheado com queijo, presunto, tomate e cebola."
             photoUrl="/omelete-presunto.webp"
+            price="R$60"
           />
           <ItemMenu
             title="Omelete Fit"
             description="Preparado com claras, frango desfiado e ervas finas."
             photoUrl="/omeletfit.webp"
+            price="R$50"
           />
 
           <ItemMenu
             title="Omelete Caesar"
             description="Muçarela, frango, parmesão e um toque de molho caesar."
             photoUrl="/omelete-frango.webp"
+            price="R$55"
           />
         </div>
       </section>
