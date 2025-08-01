@@ -6,7 +6,7 @@ const Menu: React.FC = () => {
   return (
     <main className="grid md:grid-cols-2 gap-4 p-8">
       <div className="flex items-center">
-        <h2 className="text-6xl font-bold leading-16">ENCONTRE O QUÊ VOCÊ DESEJA.</h2>
+        <h2 className="text-3xl md:text-6xl font-bold leading-16">ENCONTRE O QUÊ VOCÊ DESEJA.</h2>
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div>
