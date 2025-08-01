@@ -15,8 +15,16 @@ const entrada: React.FC = () => {
             photoUrl="/fetutine-mignon.webp"
             price="105"
           />
-          <ItemMenu title="Frango grelhado ao limão siciliano com risoto leve" photoUrl="/frango-grelhado-limao.webp" />
-          <ItemMenu title="Frango grelhado ou mignon com arroz branco e feijão" photoUrl="/frango-grelhado-ia.webp" />
+          <ItemMenu
+            title="Frango grelhado ao limão siciliano com risoto leve"
+            photoUrl="/frango-grelhado-limao.webp"
+            price="R$105"
+          />
+          <ItemMenu
+            title="Frango grelhado ou mignon com arroz branco e feijão"
+            photoUrl="/frango-grelhado-ia.webp"
+            price="R$105"
+          />
         </div>
       </section>
     </main>
